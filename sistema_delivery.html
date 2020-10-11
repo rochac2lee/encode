@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Fontawesome CSS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+
+    <!--  HTML5 shiv  -->
+    <!--[if lt IE 9]>
+	     <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+
+    <!--  MATERIAL DESIGN  -->
+     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+
+
+
+    <!--  Custom Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="img/favicon.png">
+
+    <title>Encode - Desenvolvimento de Sistemas</title>
+  </head>
+  <body id="main-page">
+
+    <header>
+      <!--  INICIO NAVBAR  -->
+        <nav id="main-navbar" class="navbar navbar-expand-md">
+          <div class="container">
+
+            <div class="navbar-brand">
+              <a href="index.html"><img src="img/logo.png" style="width:200px"></a>
+            </div>
+
+
+            <!--<button class="btn navbar-dark navbar-toggler" data-toggle="collapse" data-target="#nav-principal" type="button">
+              <span class="navbar-toggler-icon"></span>
+            </button>-->
+
+          <div class="side-display">
+            <span style="color:#DFDFDF;font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i></span>
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <ul class="list-unstyled">
+                <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="solucoes.html" class="nav-link active">Soluções</a></li>
+                <li class="nav-item"><a href="orcamento.html" class="nav-link">Orçamento</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541988238593&text=Desejo%20ser%20um%20afiliado!" class="nav-link">Seja um afiliado</a></li>
+              </ul>
+            </div>
+          </div>
+
+            <div class="collapse navbar-collapse" id="nav-principal">
+              <ul class="navbar navbar-nav ml-auto">
+                <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="solucoes.html" class="nav-link active">Soluções</a></li>
+                <li class="nav-item"><a href="orcamento.html" class="nav-link">Orçamento</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541988238593&text=Desejo%20ser%20um%20afiliado!" class="nav-link btn button-afiliado">Seja um afiliado</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+      <!--  FIM NAVBAR  -->
+
+    </header>
+
+    <div id="header-text" class="container d-flex">
+      <div class="row d-flex align-self-center">
+        <div class="col-md-6 align-self-center">
+          <h1>TENHA SEU PRÓPRIO SISTEMA DE DELIVERY!</h1>
+          <a href="sistemaDelivery" class="btn button-saiba-mais">Testar demo</a>
+        </div>
+          <div class="col-md-5 mx-auto">
+          <img src="img/delivery.png" class="d-none d-md-block delivery-img01">
+        </div>
+      </div>
+    </div>
+
+    <section id="benefits">
+      <div class="container">
+        <div class="row">
+          <div class="benefits-content col-md-4">
+            <img src="img/icon_comissao.png">
+            <h2>Livre de comissões</h2>
+            <p>Chega de comissão por venda!
+            <br>Você não precisa pagar comissão cada vez que vender um produto.
+            </p>
+          </div>
+          <div class="benefits-content col-md-4">
+            <img src="img/icon_gestao_financeira.png">
+            <h2>Gestão financeira</h2>
+            <p>Controle as entradas e saídas do seu delivery. Assim você tem maior precisão no fechamento de contas a pagar e receber.</p>
+          </div>
+          <div class="benefits-content col-md-4">
+            <img src="img/icon_controle_pedidos.png">
+            <h2>Controle de pedidos</h2>
+            <p>Tenha indicadores dos seus produtos mais vendidos, além de relatórios e cadastro de novos produtos.</p>
+          </div>
+          <div class="benefits-content col-md-4">
+            <img src="img/icon_economia.png">
+            <h2>Economia</h2>
+            <p>Sem taxas iniciais. A partir de R$59,90 mensais você tem disponível alguns dos recursos que irão alavancar suas vendas e organizar seu negócio.</p>
+          </div>
+          <div class="benefits-content col-md-4">
+            <img src="img/icon_facilidade.png">
+            <h2>Facilidade</h2>
+            <p>O nosso sistema de delivery tem uma interface simples e fácil de usar, assim você consegue configurar em poucos minutos.</p>
+          </div>
+          <div class="benefits-content col-md-4">
+            <img src="img/icon_engajamento.png">
+            <h2>Engajamento</h2>
+            <p>Seus clientes não precisam depender de aplicativos terceirizados para pedir seu produto. Além disso eles ficam mais próximos a você.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="parallax d-flex">
+      <div class="container d-flex">
+        <div class="row col-md-12  align-self-center justify-content-center">
+          <h1>ADMINISTRAR O SEU DELIVERY<br>NUNCA FOI TÃO FÁCIL!</h1>
+        </div>
+      </div>
+    </div>
+
+    <section id="custom" class="d-none d-md-block">
+      <div class="container d-flex">
+        <div class="custom row d-flex">
+          <div class="col-md-7 align-self-center">
+            <h2>PERSONALIZE O SISTEMA E DEIXE COM A CARA DO SEU NEGÓCIO</h2>
+            <a href="sistemaDelivery" class="register-button btn">Testar demo</a>
+          </div>
+          <div class="col-md-5">
+            <img src="img/custom-image.png" class="d-none d-md-block">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="plans">
+      <div class="container">
+        <h4 class="pt-5 display-4" style="color:#DFDFDF">PLANOS QUE CABEM NO SEU BOLSO</h4>
+        <div class="row justify-content-center">
+          <div class="plan col-lg-3">
+            <h4>SISTEMA DE GESTÃO</h4>
+            <ul class="plans-list">
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Movimentações financeiras</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Gestão de pedidos</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Relatórios</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Cadastro de produtos</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Ranking de clientes</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Painel de indicadores</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Controle de caixa</li>
+              <li class="disabled"><i class="far fa-check-circle text-dark mr-1"></i>Tela de pedidos</li>
+              <li class="disabled"><i class="far fa-check-circle text-dark mr-1"></i>Cardápio digital</li>
+              <li class="disabled"><i class="far fa-check-circle text-dark mr-1"></i>Aplicativo próprio</li>
+              <li class="disabled"><i class="far fa-check-circle text-dark mr-1"></i>Domínio próprio</li>
+            </ul>
+            <div class="plans-price container">
+              <div class="hr">
+              </div>
+              <i class="fas fa-hand-holding-usd fa-2x mb-2"></i>
+              <h3><span class="h6">R$</span> <strong>59,90</strong></h3>
+              <p>Mensais</p>
+            </div>
+          </div>
+          <div class="plan col-lg-3">
+            <h4>TELA INTERATIVA</h4>
+            <ul class="plans-list">
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Movimentações financeiras</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Gestão de pedidos</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Relatórios</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Cadastro de produtos</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Ranking de clientes</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Painel de indicadores</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Controle de caixa</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Tela de pedidos</li>
+              <li class="disabled"><i class="far fa-check-circle text-dark mr-1 disabled"></i>Cardápio digital</li>
+              <li class="disabled"><i class="far fa-check-circle text-dark mr-1"></i>Aplicativo próprio</li>
+              <li class="disabled"><i class="far fa-check-circle text-dark mr-1"></i>Domínio próprio</li>
+            </ul>
+            <div class="plans-price container">
+              <div class="hr">
+              </div>
+              <i class="fas fa-hand-holding-usd fa-2x mb-2"></i>
+              <h3><span class="h6">R$</span> <strong>79,90</strong></h3>
+              <p>Mensais</p>
+            </div>
+          </div>
+          <div class="plan col-lg-3">
+            <h4>APLICATIVO PRÓPRIO</h4>
+              <ul class="plans-list">
+                <li><i class="fas fa-check-circle text-success mr-1"></i>Movimentações financeiras</li>
+                <li><i class="fas fa-check-circle text-success mr-1"></i>Gestão de pedidos</li>
+                <li><i class="fas fa-check-circle text-success mr-1"></i>Relatórios</li>
+                <li><i class="fas fa-check-circle text-success mr-1"></i>Cadastro de produtos</li>
+                <li><i class="fas fa-check-circle text-success mr-1"></i>Ranking de clientes</li>
+                <li><i class="fas fa-check-circle text-success mr-1"></i>Painel de indicadores</li>
+                <li><i class="fas fa-check-circle text-success mr-1"></i>Controle de caixa</li>
+                <li><i class="fas fa-check-circle text-success mr-1"></i>Tela de pedidos</li>
+                <li><i class="fas fa-check-circle text-success mr-1"></i>Cardápio digital</li>
+                <li><i class="fas fa-check-circle text-success mr-1"></i>Aplicativo próprio</li>
+                <li><i class="fas fa-check-circle text-success mr-1"></i></i>Domínio próprio</li>
+              </ul>
+              <div class="plans-price container">
+                <div class="hr">
+                </div>
+                <i class="fas fa-hand-holding-usd fa-2x mb-2"></i>
+                <h3><span class="h6">R$</span> <strong>99,90</strong></h3>
+                <p>Mensais</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="support">
+      <div class="container ">
+        <div class="row justify-content-center">
+          <div class="support col-md-10">
+            <img src="img/icon_suporte.png" >
+            <div class="faq">
+              <h2>PERGUNTAS FREQUENTES</h2>
+              <p><strong>Preciso pagar alguma taxa de entrada antes da primeira mensalidade?</strong></p>
+              <p class="ml-3">Não cobramos taxas adicionais em nenhum dos planos.</p>
+              <div class="hr">
+              </div>
+              <p><strong>Quanto tempo leva para a aprovação do cadastro?</strong></p>
+              <p class="ml-3">Dentro de 3 dias damos o primeiro parecer.</p>
+              <div class="hr">
+              </div>
+              <p><strong>Quanto tempo leva para o sistema ficar disponível após a aprovação do cadastro? </strong></p>
+              <p class="ml-3">Imediatamente! Assim que o cadastro for aprovado, o sistema será liberado.</p>
+              <div class="hr">
+              </div>
+              <p><strong>Quanto tempo preciso ficar com o sistema para que não gere multas?</strong></p>
+              <p class="ml-3">Você não precisa utilizar por um tempo mínimo determinado, podendo cancelar a assinatura a qualquer momento. Sendo assim não será gerado qualquer tipo de multa.</p>
+              <div class="hr">
+              </div>
+              <p><strong>Qual o prazo para pagamento da mensalidade antes de perder o acesso do sistema?</strong></p>
+              <p class="ml-3">Passado 15 dias após a data de vencimento o acesso ficará indisponível.</p>
+              <div class="hr">
+              </div>
+              <p><strong>Qual é a taxa de entrega do sistema?</strong></p>
+              <p class="ml-3">A taxa de entrega será definida pelo usuário.</p>
+              <div class="hr">
+              </div>
+              <p><strong>Como eu recebo pelos pedidos?</strong></p>
+              <p class="ml-3">No processo de conclusão do pedido, você poderá selecionar as opções: DInheiro ou Cartão, porém o pagamento será feito pessoalmente no estabelecimento ou com o entregador.</p>
+              <a href="orcamento.html" class="register-button btn mt-4 w-75">Mande a sua pergunta</a>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>Navegação Rápida</h5>
+            <ul class="footer-nav list-unstyled">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="solucoes.html">Soluções</a></li>
+              <li><a href="orcamento.html">Orçamento</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541988238593&text=Desejo%20ser%20um%20afiliado!">Seja um afiliado</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-9 text-center">
+          <div class="footer-missao-texto">
+            <h5>Missão</h5>
+            <p><em>Criamos sistemas de acordo com as reais necessidades do
+            cliente, afim de fornecer soluções tecnológicas que
+            atendem de fato as expectativas. Desenvolvemos com as tecnologias e linguagens de
+            programação mais avançadas do mercado, proporcionando
+            uma excelente experiência de uso por parte dos usuários.</em></p>
+          </div>
+
+          <div class="icons">
+            <a href="https://api.whatsapp.com/send?phone=5541988238593&fbclid=IwAR2Og2WbGMPO4iLa4hGhcRqLtfsZNeXUoWQ2zG1HM8x5aKwLjCyktkRX2NQ" id="whatsapp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/encode.devsa" id="facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/encode.devsa/" id="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:contato@encode.dev.br" id="email"><i class="fa fa-envelope"></i></a>
+          </div>
+
+          <p style="color: #DFDFDF">Encode Desenvolvimento e Assessoria de Sistemas</p>
+        </div>
+
+      </div>
+    </div>
+    </footer>
+
+
+
+
+    <script src="js/site.js"></script>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

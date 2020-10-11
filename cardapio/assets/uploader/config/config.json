@@ -1,0 +1,4 @@
+[{"username":"admin","password":"0192023a7bbd73250516f069df18b500","permissions":"wru","homedir":""},
+ {"username":"guest","password":"","permissions":"rwu","homedir":""},
+ {"username":"cleberli.rocha","password":"$P$BFCDBFJy8ePcL0RN4jRbb3QpMuTbJZ\/","permissions":"rwu",
+   "homedir":"\/var\/www\/html\/intranet\/uploader\/repository\/cleberli.rocha","email":"cleberli.rocha@gmail.com","akey":""}]
