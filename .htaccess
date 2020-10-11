@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^teste\/?$ index.php?url=ui-index.php [L]
+Options +FollowSymLinks
+Options -MultiViews
