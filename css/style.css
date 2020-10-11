@@ -127,7 +127,7 @@ body {
 }
 
 body#main-page {
-  background: linear-gradient(45deg, #1c2e41,#59728e);
+  background: linear-gradient(45deg, #0c2442,#4f7492);
   background-repeat: no-repeat;
 }
 
@@ -607,7 +607,7 @@ button {
   transition: background 0.5s, color 0.5s;
 }
 
-.register-button:hover {
+.register-button:hover, a.btn.register-button:hover {
   color: #DFDFDF;
   background: #244A63;
   cursor: pointer;
@@ -616,6 +616,7 @@ button {
 .register-button:focus {
   outline: none;
 }
+
 
 #nav-principal a.button-afiliado {
   color: #DFDFDF;
@@ -739,77 +740,83 @@ button {
 
 #plans {
   text-align: center;
-  background: linear-gradient(45deg, #1c2e41,#59728e);
+  background: linear-gradient(45deg, #0c2442,#4f7492);
   background-repeat: no-repeat;
 }
 
-#plans02 {
+#plans02 .container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  max-width: 9999px;
+}
+
+#plans02 .col-md-4 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  min-width: 30%;
+  max-width: 60%;
+}
+
+#plans02 .plans-item-title {
+  background: linear-gradient(45deg, #0c2442,#4f7492);
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#plans02 .plans-item-title h2 {
+  font-size: 3em;
+}
+
+#plans02 .plans-category {
   text-align: center;
-  background: #dfdfdf;
-  background-repeat: no-repeat;
-}
-
-#plans02 .plan {
-  width: 100%;
-  margin: 50px 20px;
-  color: #dfdfdf;
-  padding: 10px 0px 0px 0px;
-  background: linear-gradient(45deg, #1c2e41,#59728e);
-  box-shadow: 5px 5px 25px rgba(0,0,0,0.5);
-  border-radius: 10px;
-}
-
-#plans02 .plans-price {
-  font-family: Aller, sans-serif;
-  color: #dfdfdf;
-  text-align: center;
-}
-
-#plans02 .plans-list {
-  font-family: Aller, sans-serif;
-  margin-top: 20px;
-  list-style: none;
-  text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.plan {
-  width: 100%;
-  margin: 50px 20px;
-  padding: 10px 0px 0px 0px;
-  background: #DFDFDF;
-  box-shadow: 5px 5px 25px rgba(0,0,0,0.5);
-  border-radius: 10px;
-}
-
-.plans-list {
-  font-family: Aller, sans-serif;
-  margin-top: 20px;
-  list-style: none;
-  text-align: left;
-}
-
-.plans-price {
-  font-family: Aller, sans-serif;
   color: #244A63;
-  text-align: center;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.plans-price h3 {
+#plans02 .plans-category h3 {
   font-size: 2.5em;
 }
 
-.disabled {
-  color: #737373;
-}
 
-#plans h4 {
+#plans02 .plans-category h4 {
+  font-family: Calibri, sans-serif;
+  font-size: 3em;
   color: #244A63;
 }
 
 
+#plans02 .disabled, #plans02 h4.disabled {
+  color: #d9d9d9;
+}
 
+#plans02 .plans-category h6 {
+  font-family: Calibri, sans-serif;
+  color: #244A63;
+}
+
+#plans02 .plans-category img {
+  width: 30px;
+}
+
+#plans02 .plans-category-title {
+  background: #244A63;
+}
+
+#plans02 .plans-item-description {
+  font-size: 0.5em;
+  font-family: Aller, sans-serif;
+}
+
+
+#plans02 .plans-item-description p {
+  font-style: italic;
+  font-size: 1.7em;
+}
 
 /*  SUPORTE  */
 
@@ -996,6 +1003,14 @@ RESPONSIVIDADE
 
   #support img {
     width: 200px;
+  }
+
+  #plans02 .col-md-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 25%;
+    min-width: 90%;
+    max-width: 100%;
+    margin-bottom: 100px;
   }
 }
 
@@ -1271,5 +1286,7 @@ RESPONSIVIDADE
   .parallax, .parallax02 {
     height: 80%;
   }
+
+
 
 }
