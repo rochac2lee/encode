@@ -15,54 +15,69 @@ font
 
 @font-face {
   font-family: Bison;
-  src: url('font/Bison-Bold_PersonalUse_.woff');
+  src: url('../font/Bison-Bold_PersonalUse_.woff');
 }
 
 @font-face {
   font-family: Aller_Bold;
-  src: url('font/aller/Aller_Bd.woff');
+  src: url('../font/aller/Aller_Bd.woff');
 }
 
 @font-face {
   font-family: Aller_BoldLight;
-  src: url('font/aller/Aller_Bdlt.woff');
+  src: url('../font/aller/Aller_Bdlt.woff');
 }
 
 @font-face {
   font-family: Aller_Light;
-  src: url('font/aller/Aller_lt.woff');
+  src: url('../font/aller/Aller_lt.woff');
 }
 
 @font-face {
   font-family: Aller_Lightlt;
-  src: url('font/aller/Aller_Ltlt.woff');
+  src: url('../font/aller/Aller_Ltlt.woff');
 }
 
 @font-face {
   font-family: Aller_Regular;
-  src: url('font/aller/Aller_Rg.woff');
+  src: url('../font/aller/Aller_Rg.woff');
 }
 
 @font-face {
   font-family: Aller_Display;
-  src: url('font/aller/AllerDisplay.woff');
+  src: url('../font/aller/AllerDisplay.woff');
 }
 
 
 /*====== general ======*/
+.whatsapp {
+  font-size: 3.5em;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+  color: #34af23;
+  z-index: 99;
+  transition: color .5s;
+}
+
+.whatsapp:hover {
+  color: var(--secondary);
+}
+
 .row {
   margin: 0px;
   height: 100%;
 }
 
 .img {
-  background: url('img/img01.png');
+  background: url('../img/img01.png');
   background-size: cover;
   background-position: center;
 }
 
 .img02 {
-  background: url('img/img02.png');
+  background: url('../img/img02.png');
   background-size: cover;
   background-position: center;
 }
@@ -152,7 +167,7 @@ div.lead-section h2 {
 
 /*====== section 01 ======*/
 .sec01 {
-  background: url('img/img03.png');
+  background: url('../img/img03.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -176,6 +191,7 @@ a.btn-saiba-mais {
   padding: 15px 40px;
   border-radius: 50px;
   background: var(--primary);
+  transition: background 0.5s;
 }
 
 a.btn-saiba-mais:hover {
@@ -186,9 +202,9 @@ a.btn-saiba-mais:hover {
 
 /*====== section 02 ======*/
 .sec02 {
-  height: 1600px;
+  height: 1620px;
   padding: 50px 20px;
-  background: url('img/img04.png');
+  background: url('../img/img04.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -254,13 +270,56 @@ a.btn-saiba-mais:hover {
   border-radius: 20px;
 }
 
-/*====== section 03 ======*/
-.sec03 {
+a.btn-enviar {
+  font-family: Aller_Bold;
+  font-size: 1.2em;
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 50px;
+  background: var(--primary);
+  transition: background 0.5s;
+}
+
+a.btn-enviar:hover {
+  text-decoration: none;
+  color: white;
+  background: var(--secondary);
+}
+
+/*====== contact ======*/
+.contact {
   margin-top: 200px;
 }
 
-.sec03 h1 {
+.contact h1 {
   font-family: Bison;
   font-size: 5em;
   color: var(--primary);
+}
+
+/*====== footer ======*/
+footer {
+  background: var(--primary);
+  padding: 10px;
+}
+
+footer h6 {
+  font-family: Aller;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  font-size: 2em;
+  padding: 10px;
+  color: white;
+  transition: color .5s;
+}
+
+footer a:hover {
+  color: var(--secondary);
 }
