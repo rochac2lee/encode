@@ -17,183 +17,104 @@
     <![endif]-->
 
     <!--  MATERIAL DESIGN  -->
-    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-
-
+     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 
     <!--  Custom Style -->
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="icon" href="img/favicon.png">
 
-    <title>Encode - Desenvolvimento de Sistemas</title>
+    <title>Encode - Marketing e Desenvolvimento</title>
   </head>
-  <body id="sobre-page">
+  <body id="sobre">
 
-    <header>
-      <!--  INICIO NAVBAR  -->
-        <nav id="main-navbar" class="navbar navbar-expand-md">
+    <a href="#" class="whatsapp"><i class="fab fa-whatsapp-square"></i></a>
+
+    <nav id="navigation" class=" mt-2 nav navrbar">
+      <ul class="nav ml-auto mr-auto">
+        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="solucoes.html">Soluções</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://api.whatsapp.com/send?phone=5541988238593&fbclid=IwAR2Og2WbGMPO4iLa4hGhcRqLtfsZNeXUoWQ2zG1HM8x5aKwLjCyktkRX2NQ">Orçamento</a></li>
+        <li class="nav-item"><a class="nav-link active" href="sobre.html">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://api.whatsapp.com/send?phone=5541988238593&fbclid=IwAR2Og2WbGMPO4iLa4hGhcRqLtfsZNeXUoWQ2zG1HM8x5aKwLjCyktkRX2NQ">Seja um afiliado</a></li>
+      </ul>
+    </nav>
+
+    <div class="lead-section">
+      <a  href="index.html"><img src="img/logo02.png"></a>
+    </div>
+
+    <!-- <section class="sec05">
+        <div class="contact">
           <div class="container">
+            <div class="row">
+              <div class="col-md-5 align-self-center">
+                  <h1>FALE CONOSCO</h1>
+                  <div class="hr mb-5"></div>
 
-            <div class="navbar-brand">
-              <a href="index.html"><img src="img/logo.png" style="width:200px"></a>
-            </div>
+                  <div id="form" class="form-group" action="index.html" method="post">
+                    <div class="input-group">
+                      <span class="input-group-prepend">
+                        <div class="input-group-text">
+                          <i class="fas fa-user-alt"></i>
+                        </div>
+                      </span>
+                      <input class="form-control" type="text" name="nome" value="" placeholder="Digite seu nome">
+                    </div>
 
-            <!--<button class="btn navbar-dark navbar-toggler" data-toggle="collapse" data-target="#nav-principal" type="button">
-              <span class="navbar-toggler-icon"></span>
-            </button>-->
+                    <div class="input-group">
+                      <span class="input-group-prepend">
+                        <div class="input-group-text">
+                          <i class="fas fa-phone-alt"></i>
+                        </div>
+                      </span>
+                      <input class="form-control" type="text" name="numero" value="" placeholder="Digite seu número">
+                    </div>
 
-            <div class="side-display">
-              <span style="color:#DFDFDF;font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i></span>
-              <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <ul class="list-unstyled">
-                  <li class="nav-item"><a href="home.html" class="nav-link active">Home</a></li>
-                  <li class="nav-item"><a href="solucoes.html" class="nav-link">Soluções</a></li>
-                  <li class="nav-item"><a href="orcamento.html" class="nav-link">Orçamento</a></li>
-                  <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
-                  <li class="nav-item"><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541988238593&text=Desejo%20ser%20um%20afiliado!" class="nav-link">Seja um afiliado</a></li>
-                </ul>
+                    <div class="input-group">
+                      <span class="input-group-prepend">
+                        <div class="input-group-text">
+                          <i class="fas fa-at"></i>
+                        </div>
+                      </span>
+                      <input class="form-control" type="text" name="email" value="" placeholder="Digite seu email">
+                    </div>
+
+                    <textarea class="form-control" name="mensagem" rows="6" cols="80" placeholder="Deixe sua mensagem"></textarea>
+                  </div>
+
+                  <div>
+                    <a href="#" class="btn-enviar">Enviar</a>
+                  </div>
+
               </div>
+              <div class="col-md-7 d-flex justify-content-end">
+                <img src="img/img06.png" width="600" alt="">
+              </div>
+
             </div>
-
-            <div class="collapse navbar-collapse" id="nav-principal">
-              <ul class="navbar navbar-nav ml-auto">
-                <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="solucoes.html" class="nav-link">Soluções</a></li>
-                <li class="nav-item"><a href="orcamento.html" class="nav-link">Orçamento</a></li>
-                <li class="nav-item"><a href="sobre.html" class="nav-link active">Sobre</a></li>
-                <li class="nav-item"><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541988238593&text=Desejo%20ser%20um%20afiliado!" class="nav-link btn button-afiliado">Seja um afiliado</a></li>
-              </ul>
-            </div>
-
           </div>
-        </nav>
-      <!--  FIM NAVBAR  -->
+        </section> -->
 
-    </header>
-
-    <div id="sobre-header" class="d-flex justify-content-center">
-      <div class="align-self-center">
-        <a href="index.html"><img src="img/logo-sobre.png"></a>
-      </div>
-    </div>
-
-  <section id="sobre" >
-
-    <div class="container mt-5 mb-5">
-      <div class="row d-flex">
-        <div class="col-md-6 align-self-center">
-          <h2>QUEM SOMOS</h2>
-          <div class="hr"></div>
-          <p>A Encode tem o objetivo de ajudar você a organizar o seu negócio com uma tecnologia voltada para as reais necessidades da companhia. Nós acreditamos que a tecnologia direcionada pode servir como uma <strong>ferramenta de gestão</strong> e não apenas como algo bonito.
-            <br><br>Falamos isso com convicção, pois além de vendermos soluções também utilizamos as mesmas em nossos empreendimentos, garantimos o aumento da organização e controle do negócio de forma que você possa ver o que acontece por trás da sua empresa.</p>
-        </div>
-        <div class="col-md-6 d-flex">
-          <div class="mx-auto d-none d-md-block">
-            <img src="img/sobre01.png">
+        <footer>
+          <div class="text-center">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
           </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container mt-5 mb-5">
-      <div class="row d-flex">
-        <div class="col-md-6 d-flex">
-          <div class="mx-auto d-none d-md-block">
-            <img src="img/sobre02.png">
-          </div>
-        </div>
-        <div class="col-md-6 text-right align-self-center">
-          <h2>O QUE FAZEMOS</h2>
-          <div class="hr"></div>
-          <p>Criamos soluções práticas de acordo com suas reais necessidades. Essas soluções geralmente são aplicativos, websites e sistemas que ajudam você a ir além e sempre estar um passo á frente.<br><br>
-          Desenvolvemos interfaces dinâmicas e inteligentes, assim você poderá com alguns cliques configurar, abrir painéis e abas ou até customizar seu aplicativo ou sistema.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container mt-5 mb-5">
-      <div class="row d-flex">
-        <div class="col-md-6 align-self-center">
-          <h2>TECNOLOGIA</h2>
-          <div class="hr"></div>
-          <p>Em nossos projetos utilizamos linguagens de última geração como: HTML5, CSS6, PHP, JavaScript, jQuery, entre outros. Usamos também softwares de ponta para criar interfaces e estilos como: Photoshop e AdobeXD.
-          Buscamos sempre desenvolver nossos projetos do absoluto zero, para que você tenha um produto 100% original.</p>
-        </div>
-        <div class="col-md-6 d-flex">
-          <div class="mx-auto d-none d-md-block">
-            <img src="img/sobre04.png">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container mt-5 mb-5">
-      <div class="row d-flex">
-        <div class="col-md-6 d-flex">
-          <div class="mx-auto d-none d-md-block">
-            <img src="img/sobre03.png">
-          </div>
-        </div>
-        <div class="col-md-6 text-right align-self-center">
-          <h2>COMO TRABALHAMOS</h2>
-          <div class="hr"></div>
-          <p>Nós da Encode sempre estamos abertos a negociações, por isso não definimos um valor fixo na maioria de nossos serviços, assim você tem mais liberdade na escolha do seu plano.<br><br> Cada projeto é um desafio diferente para nós, então buscamos entender as necessidades da sua empresa para que possamos desenvolver a melhor solução. Você pode fazer um <a href="https://api.whatsapp.com/send?phone=5541988238593&fbclid=IwAR2Og2WbGMPO4iLa4hGhcRqLtfsZNeXUoWQ2zG1HM8x5aKwLjCyktkRX2NQ" target="_blank">orçamento sem compromisso</a> conosco além de poder <a href="">testar gratuitamente a versão demo</a> do nosso sistema de delivery.</p>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-    <footer>
-      <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <h5>Navegação Rápida</h5>
-            <ul class="footer-nav list-unstyled">
-              <li><a href="home.html">Home</a></li>
-              <li><a href="solucoes.html">Soluções</a></li>
-              <li><a href="orcamento.html">Orçamento</a></li>
-              <li><a href="sobre.html">Sobre</a></li>
-              <li><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541988238593&text=Desejo%20ser%20um%20afiliado!">Seja um afiliado</a></li>
-            </ul>
-        </div>
-
-        <div class="col-md-9 text-center">
-          <div class="footer-missao-texto">
-            <h5>Missão</h5>
-            <p><em>Criamos sistemas de acordo com as reais necessidades do
-            cliente, afim de fornecer soluções tecnológicas que
-            atendem de fato as expectativas. Desenvolvemos com as tecnologias e linguagens de
-            programação mais avançadas do mercado, proporcionando
-            uma excelente experiência de uso por parte dos usuários.</em></p>
-          </div>
-
-          <div class="icons">
-            <a href="https://api.whatsapp.com/send?phone=5541988238593&fbclid=IwAR2Og2WbGMPO4iLa4hGhcRqLtfsZNeXUoWQ2zG1HM8x5aKwLjCyktkRX2NQ" id="whatsapp"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://www.facebook.com/encode.devsa" id="facebook"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/encode.devsa/" id="instagram"><i class="fab fa-instagram"></i></a>
-            <a href="mailto:contato@encode.dev.br" id="email"><i class="fa fa-envelope"></i></a>
-          </div>
-
-          <p style="color: #DFDFDF">Encode Desenvolvimento e Assessoria de Sistemas</p>
-        </div>
-
-      </div>
-    </div>
-    </footer>
+          <h6>Encode - Marketing e Desenvolvimento - 2020</h6>
+        </footer>
 
 
 
 
-    <script src="js/site.js"></script>
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+
+
+  <script src="js/site.js"></script>
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
 </html>
