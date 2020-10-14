@@ -17,194 +17,173 @@
     <![endif]-->
 
     <!--  MATERIAL DESIGN  -->
-    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
-    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-
-
-
+     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 
     <!--  Custom Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
-    <link rel="icon" href="img/favicon.png">
 
-    <title>Encode - Desenvolvimento de Sistemas</title>
+    <title>Encode - Marketing e Desenvolvimento</title>
   </head>
-  <body id="solucoes-page">
+  <body id="home">
 
-    <header>
-      <!--  INICIO NAVBAR  -->
-        <nav id="main-navbar" class="navbar navbar-expand-md">
-          <div class="container">
-
-            <div class="navbar-brand">
-              <a href="index.html"><img src="img/logo.png" style="width:200px"></a>
-            </div>
-
-            <!--<button class=" navbar-dark navbar-toggler" data-toggle="collapse" data-target="#nav-principal" type="button">
-              <span class="navbar-toggler-icon"></span>
-            </button>-->
-
-            <div class="side-display">
-              <span style="color:#DFDFDF;font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars"></i></span>
-              <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <ul class="list-unstyled">
-                  <li class="nav-item"><a href="home.html" class="nav-link active">Home</a></li>
-                  <li class="nav-item"><a href="solucoes.html" class="nav-link">Soluções</a></li>
-                  <li class="nav-item"><a href="orcamento.html" class="nav-link">Orçamento</a></li>
-                  <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
-                  <li class="nav-item"><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541988238593&text=Desejo%20ser%20um%20afiliado!" class="nav-link">Seja um afiliado</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="collapse navbar-collapse" id="nav-principal">
-              <ul class="navbar navbar-nav ml-auto">
-                <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="solucoes.html" class="nav-link active">Soluções</a></li>
-                <li class="nav-item"><a href="orcamento.html" class="nav-link">Orçamento</a></li>
-                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
-                <li class="nav-item"><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541988238593&text=Desejo%20ser%20um%20afiliado!" class="nav-link btn button-afiliado">Seja um afiliado</a></li>
-              </ul>
-            </div>
-
-          </div>
-        </nav>
-      <!--  FIM NAVBAR  -->
-
-    </header>
-
-    <div id="header-text" class="container d-flex">
-      <div class="row d-flex align-self-center">
-        <div class="solution-header-text col-md-12 align-self-center">
-          <h1>VOCÊ IMAGINA<br>NÓS DESENVOLVEMOS</h1>
-        </div>
+    <nav id="navigation" class=" mt-2 nav navrbar">
+      <div class="navbar navbar-brand">
+        <a href="#"><img src="img/logo01.png" width="150px"></a>
       </div>
-    </div>
+      <ul class="nav ml-auto">
+        <li class="nav-item"><a class="nav-link primal-link" href="">Home</a></li>
+        <li class="nav-item"><a class="nav-link primal-link active" href="">Soluções</a></li>
+        <li class="nav-item"><a class="nav-link" href="">Orçamento</a></li>
+        <li class="nav-item mr-5"><a class="nav-link" href="">Sobre</a></li>
+        <li class="pipe mt-2 mr-1 ml-1"></li>
+        <li class="nav-item ml-5"><a class="nav-link" href="">Seja um afiliado</a></li>
+      </ul>
+    </nav>
 
-    <section id="solution">
-      <div class="container">
-
-        <div class="solution-content row col-md-12">
-          <div id="android" class="d-none d-md-block solution-img col-md-6">
-
-          </div>
-          <div class="d-flex col-md-6">
-            <div class="align-self-center text-right">
-              <h2>Aplicativos</h2>
-              <div class="hr w-100"></div>
-              <p>Atualmente desenvolvemos aplicativos para android, buscando atender as necessidades do nosso cliente. Criamos o layout do zero e publicamos na PlayStore.</p>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-
-        <div class="solution-content row col-md-12">
-          <div id="gestao" class="d-none d-md-block solution-img col-md-6">
-
-          </div>
-          <div class="d-flex col-md-6">
-            <div class="align-self-center text-right">
-              <h2>Sistemas de Gestão</h2>
-              <div class="hr w-100"></div>
-              <p>Controle cada canto da sua empresa!
-              Com um sistema de gestão adaptado para cada empreendimento, nós desenvolvemos sistemas com movimentações financeiras, indicadores e gráficos. Assim você pode acompanhar o crescimento do seu negócio.</p>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-
-        <div class="solution-content row col-md-12">
-          <div id="website" class="d-none d-md-block solution-img col-md-6">
-
-          </div>
-          <div class="d-flex col-md-6">
-            <div class="align-self-center text-right">
-              <h2>Websites</h2>
-              <div class="hr w-100"></div>
-              <p>Com interfaces completamente personalizadas, nós oferecemos ao nosso cliente a opção de ter o seu prórpio website para aumentar a visibilidade do seu negócio e fechar possíveis vendas.</p>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
-    <div class="parallax02 d-flex">
-      <div class="container align-self-center">
-        <div class="row">
-          <div class="col-md-12">
-          <h1>TER O SEU PRÓRPIO SITE<br>NÃO PRECISA CUSTAR CARO<br></h1>
-        </div>
-        </div>
-      </div>
-    </div>
-
-    <section id="custom">
-      <div class="container d-flex">
-        <div class="custom row d-flex">
-          <div class="d-none d-md-block col-md-5">
-            <img src="img/afiliado-image.png">
-          </div>
-          <div class="col-md-7 align-self-center text-right">
-            <h2>SEJA UM AFILIADO ENCODE!</h2>
-            <h3>Ganhe até 30% sobre o valor da venda, além de experiência e networking</h3>
-            <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541988238593&text=Desejo%20ser%20um%20afiliado!" class="btn register-button">Saiba mais</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container">
+    <div class="lead-section">
       <div class="row">
-        <div class="col-md-3">
-          <h5>Navegação Rápida</h5>
-            <ul class="footer-nav list-unstyled">
-              <li><a href="home.html">Home</a></li>
-              <li><a href="solucoes.html">Soluções</a></li>
-              <li><a href="orcamento.html">Orçamento</a></li>
-              <li><a href="sobre.html">Sobre</a></li>
-              <li><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5541988238593&text=Desejo%20ser%20um%20afiliado!">Seja um afiliado</a></li>
-            </ul>
-        </div>
-
-        <div class="col-md-9 text-center">
-          <div class="footer-missao-texto">
-            <h5>Missão</h5>
-            <p><em>Criamos sistemas de acordo com as reais necessidades do
-            cliente, afim de fornecer soluções tecnológicas que
-            atendem de fato as expectativas. Desenvolvemos com as tecnologias e linguagens de
-            programação mais avançadas do mercado, proporcionando
-            uma excelente experiência de uso por parte dos usuários.</em></p>
+        <div class="col-md-7 d-flex flex-column justify-content-center align-items-center">
+          <div class="align-items-left">
+            <h1>VOCÊ IMAGINA</h1>
+            <h1>NÓS DESENVOLVEMOS</h1>
+            <div class="hr"></div>
           </div>
-
-          <div class="icons">
-            <a href="https://api.whatsapp.com/send?phone=5541988238593&fbclid=IwAR2Og2WbGMPO4iLa4hGhcRqLtfsZNeXUoWQ2zG1HM8x5aKwLjCyktkRX2NQ" id="whatsapp"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://www.facebook.com/encode.devsa" id="facebook"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/encode.devsa/" id="instagram"><i class="fab fa-instagram"></i></a>
-            <a href="mailto:contato@encode.dev.br" id="email"><i class="fa fa-envelope"></i></a>
-          </div>
-
-          <p style="color: #DFDFDF">Encode Desenvolvimento e Assessoria de Sistemas</p>
         </div>
-
+        <div class="col-md-5 d-flex justify-content-center align-items-center img">
+          <h2>Aplicativos</h2>
+        </div>
       </div>
     </div>
-    </footer>
+
+    <section class="sec01">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <img src="img/android.png" alt="">
+          </div>
+          <div class="col-md-5 align-self-center">
+            <h1>APLICATIVOS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn-saiba-mais">Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-7">
+            <img src="img/website.png" alt="">
+          </div>
+          <div class="col-md-5 align-self-center">
+            <h1>WEBSITES</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn-saiba-mais">Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-7">
+            <img src="img/delivery.png" alt="">
+          </div>
+          <div class="col-md-5 align-self-center">
+            <h1>SISTEMAS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn-saiba-mais">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="lead-section">
+      <div class="row">
+        <div class="col-md-5 d-flex justify-content-center align-items-center img02">
+          <h2>Arte digital para mídias sociais</h2>
+        </div>
+        <div class="col-md-7 d-flex flex-column justify-content-center align-items-center">
+          <div class="align-items-left">
+            <h1>MARKETING DIGITAL</h1>
+            <h1>PARA O SEU NEGÓCIO</h1>
+            <div class="hr"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="sec02">
+      <div>
+        <div class="row">
+          <div class="col-md-5 align-self-center">
+            <div class="hr02 pl-2">
+              <h1>IDENTIDADE VISUAL</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="hr02 pl-2">
+              <h1>REDES SOCIAIS</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="col-md-7 d-flex justify-content-end">
+            <img src="img/img05.png" width="600" alt="">
+          </div>
+        </div>
+      </div>
+
+        <section class="sec03">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5 align-self-center">
+                  <h1>FALE CONOSCO</h1>
+                  <div class="hr mb-5"></div>
+
+                  <div id="form" class="form-group" action="index.html" method="post">
+                    <div class="input-group">
+                      <span class="input-group-prepend">
+                        <div class="input-group-text">
+                          <i class="fas fa-user-alt"></i>
+                        </div>
+                      </span>
+                      <input class="form-control" type="text" name="nome" value="" placeholder="Digite seu nome">
+                    </div>
+
+                    <div class="input-group">
+                      <span class="input-group-prepend">
+                        <div class="input-group-text">
+                          <i class="fas fa-phone-alt"></i>
+                        </div>
+                      </span>
+                      <input class="form-control" type="text" name="numero" value="" placeholder="Digite seu número">
+                    </div>
+
+                    <div class="input-group">
+                      <span class="input-group-prepend">
+                        <div class="input-group-text">
+                          <i class="fas fa-at"></i>
+                        </div>
+                      </span>
+                      <input class="form-control" type="text" name="email" value="" placeholder="Digite seu email">
+                    </div>
+
+                    <textarea class="form-control" name="mensagem" rows="6" cols="80" placeholder="Deixe sua mensagem"></textarea>
+                  </div>
+              </div>
+              <div class="col-md-7 d-flex justify-content-end">
+                <img src="img/img06.png" width="600" alt="">
+              </div>
+
+            </div>
+          </div>
+        </section>
 
 
 
 
-    <script src="js/site.js"></script>
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+
+
+  <script src="site.js"></script>
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
 </html>
