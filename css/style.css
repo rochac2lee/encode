@@ -146,7 +146,7 @@ div.lead-section h2 {
   background: white;
 }
 
-#navigation li a .active {
+#navigation li a.active {
   color: var(--secondary);
   background: white;
 }
@@ -254,23 +254,57 @@ a.btn-saiba-mais:hover {
 
 /*====== about ======*/
 
-#sobre .lead-section {
-  background: url("../img/sobre_header.png") no-repeat;
-  height: 100%;
-  width: 100%;
-  position: fixed;
+#sobre .header {
+    background: url("../img/sobre_header.png") no-repeat;
+    height: 675px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#sobre .header {
   display: flex;
   justify-content: center;
 }
 
-#sobre .lead-section img {
+#sobre .header img {
   width: 500px;
 }
 
-#sobre .lead-section a {
+#sobre .header a {
   align-self: center;
 }
 
+#sobre .container h1 {
+  font-family: Bison;
+  font-size: 3em;
+  color: var(--primary);
+}
+
+#sobre .container p {
+  font-family: Aller_Regular;
+  font-size: 1em;
+  padding-top: 10px;
+  font-style: italic;
+  color: var(--info);
+}
+
+#sobre .container img {
+  width: 400px;
+}
+
+#sobre img[width] {
+  width: 600px;
+}
+
+#sobre p a {
+  color: var(--blue);
+}
+
+#sobre .sobre {
+  background: url("../img/img03.png") no-repeat;
+  background-size: cover;
+  height: 1800px;
+  width: 100%;
+}
 
 /*====== form ======*/
 #form input {
